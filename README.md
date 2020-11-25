@@ -12,8 +12,7 @@ Two branches have been created and are used to memorize the different assignment
 
 ## First Assignment ##
 
-A Broadcast-Only Communication Model Based on Replicated Append-Only Logs. Christian F. Tschudin. University of Basel, Switzerland
-christian.tschudin@unibas.ch
+A Broadcast-Only Communication Model Based on Replicated Append-Only Logs. Christian F. Tschudin. University of Basel, Switzerland.
 
 ## Deadline First Assignment ##
 **Monday 30, November - 6pm (Mandatory)**
