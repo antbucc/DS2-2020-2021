@@ -1,0 +1,43 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Propagation Latency</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1863009638</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map">
+    <entry>
+      <string>latency_min</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>latency_min</id>
+        <dsClassName>distributedgroup_project1.data_sources.LatencyMinDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>latency_max</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>latency_max</id>
+        <dsClassName>distributedgroup_project1.data_sources.LatencyMaxDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>latency_mean</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>latency_mean</id>
+        <dsClassName>distributedgroup_project1.data_sources.LatencyMeanDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+  </customAggDataSources>
+</repast.simphony.data2.engine.DataSetDescriptor>
