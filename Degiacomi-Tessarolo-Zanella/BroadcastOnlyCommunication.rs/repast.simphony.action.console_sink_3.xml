@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.ConsoleSinkDescriptor simphonyVersion="2.8.0">
+  <name>Station Console Sink</name>
+  <dataSet>Station Dataset</dataSet>
+  <delimiter>,</delimiter>
+  <format>LINE</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>StationId</string>
+    <string>CurrentRef</string>
+    <string>NewPerturbationValue</string>
+  </sourceIds>
+  <enabled>true</enabled>
+  <outputStream>OUT</outputStream>
+</repast.simphony.data2.engine.ConsoleSinkDescriptor>

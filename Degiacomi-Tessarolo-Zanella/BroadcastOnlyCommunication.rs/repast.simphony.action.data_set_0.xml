@@ -1,0 +1,47 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Station Dataset</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>broadcastOnlyCommunication.Station</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>948548626</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>StationId</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>StationId</id>
+        <className>broadcastOnlyCommunication.Station</className>
+        <methodName>getStationId</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>CurrentRef</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>CurrentRef</id>
+        <className>broadcastOnlyCommunication.Station</className>
+        <methodName>getCurrentRef</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>NewPerturbationValue</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>NewPerturbationValue</id>
+        <className>broadcastOnlyCommunication.Station</className>
+        <methodName>getNewPerturbationValue</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

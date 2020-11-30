@@ -1,0 +1,13 @@
+<repast.simphony.data2.engine.ConsoleSinkDescriptor simphonyVersion="2.8.0">
+  <name>Relay Console Sink</name>
+  <dataSet>Relay Dataset</dataSet>
+  <delimiter>,</delimiter>
+  <format>LINE</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>RelayId</string>
+    <string>ArrivedPerturbations</string>
+  </sourceIds>
+  <enabled>true</enabled>
+  <outputStream>OUT</outputStream>
+</repast.simphony.data2.engine.ConsoleSinkDescriptor>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sweep runs="25">
+	<parameter name="randomSeed" type="constant"
+		constant_type="int" value="123456"></parameter>
+	<parameter name="stopAt" type="constant" constant_type="int"
+		value="2000"></parameter>
+	<parameter name="numStations" type="constant"
+		constant_type="int" value="1"></parameter>
+	<parameter name="maxNumRelays" type="constant"
+		constant_type="int" value="60"></parameter>
+	<parameter name="probNew" type="constant" constant_type="int"
+		value="0"></parameter>
+	<parameter name="probCrash" type="constant"
+		constant_type="int" value="0"></parameter>
+	<parameter name="protocolVersion" type="constant"
+		constant_type="java.lang.String" value="Point-to-Point"></parameter>
+	<parameter name="probPerturbationDrop" type="constant"
+		constant_type="int" value="0"></parameter>
+	<parameter name="packetSize" type="constant"
+		constant_type="int" value="100"></parameter>
+	<parameter name="transmissionSpeed" type="constant"
+		constant_type="int" value="100"></parameter>
+	<parameter name="numRelays" type="constant"
+		constant_type="int" value="50"></parameter>
+	<parameter name="minNumRelays" type="constant"
+		constant_type="int" value="40"></parameter>
+</sweep>

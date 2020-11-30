@@ -1,0 +1,39 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Perturbation Dataset</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>broadcastOnlyCommunication.Perturbation</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>966569724</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Radius</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Radius</id>
+        <className>broadcastOnlyCommunication.Perturbation</className>
+        <methodName>getRadius</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>SenderId</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>SenderId</id>
+        <className>broadcastOnlyCommunication.Perturbation</className>
+        <methodName>getSenderId</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

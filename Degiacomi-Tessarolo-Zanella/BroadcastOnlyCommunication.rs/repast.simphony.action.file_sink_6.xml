@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.8.0">
+  <name>Station File Sink</name>
+  <dataSet>Station Dataset</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>StationId</string>
+    <string>CurrentRef</string>
+    <string>NewPerturbationValue</string>
+  </sourceIds>
+  <fileName>output/OutputStation.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>
