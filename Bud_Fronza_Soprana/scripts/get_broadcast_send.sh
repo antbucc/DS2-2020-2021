@@ -1,0 +1,1 @@
+./filter_by_tag.sh $1 Oracle | grep 'BroadcastSend' | grep 'appData=Id' | awk '{print $3", "substr($6, 5)" " substr($7,9)" "substr($8,18)" "substr($11,11, length($11)-11)}' | awk 'BEGIN{ print "timestamp,bId,broadcaster,originalSource,id"} {print $0}'
