@@ -1,0 +1,49 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Perturbation aggregate</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>0.0</start>
+    <interval>0.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>ONE_TIME</frequency>
+    <hashCode>2093513761</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>DR</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>DR</id>
+        <className>analysis.PerturbationStatistics</className>
+        <methodName>getDeliveryRate</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>LAT</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>LAT</id>
+        <className>analysis.PerturbationStatistics</className>
+        <methodName>getMaxLatency</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>MSG</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>MSG</id>
+        <className>analysis.PerturbationStatistics</className>
+        <methodName>getSentMessages</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

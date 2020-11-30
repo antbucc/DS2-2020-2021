@@ -1,0 +1,130 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Relays</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>468554492</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>DiscardedPerturbations</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>DiscardedPerturbations</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getDiscardedPerturbations</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Max bag size</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Max bag size</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getBagSize</methodName>
+        <aggType>MAX</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Lost Perturbations</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Lost Perturbations</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getLostPerturbations</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>MaxPert</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>MaxPert</id>
+        <className>bcastonly.Relay</className>
+        <methodName>receivedPerturbations</methodName>
+        <aggType>MAX</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>MinPert</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>MinPert</id>
+        <className>bcastonly.Relay</className>
+        <methodName>receivedPerturbations</methodName>
+        <aggType>MIN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>AQR Replies</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>AQR Replies</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getAQRReplies</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Sent Messages</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Sent Messages</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getSentMessages</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ARQ Requests</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ARQ Requests</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getSentARQRequests</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Sent Perturbations</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Sent Perturbations</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getSentPerturbations</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Load</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Load</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getRelayLoad</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Messages</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Messages</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getSentMessagesStep</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Out queue size</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Out queue size</id>
+        <className>bcastonly.Relay</className>
+        <methodName>getOutgoingSize</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

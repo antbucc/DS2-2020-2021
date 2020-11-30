@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+	<parameter name="randomSeed" displayName="Default Random Seed"
+		type="int" defaultValue="__NULL__" />
+	<parameter name="relay_count" displayName="Relay Count" type="int"
+		defaultValue="100" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="send_probability" displayName="Send Probability"
+		type="double" defaultValue="0.0001" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="send_p2p_probability" displayName="Send P2P Probability"
+		type="double" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="send_p2m_probability" displayName="Send P2M Probability"
+		type="double" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="send_p2s_probability" displayName="Send P2S Probability"
+		type="double" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="dinamic_factor" displayName="Dinamic Factor"
+		type="int" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="relay_type" displayName="Relay Type"
+		type="int" defaultValue="3" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="moving_factor" displayName="Moving Factor"
+		type="int" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="broadcast_domain" displayName="Broadcast domain"
+		type="int" defaultValue="5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="bandwidth" displayName="Bandwidth"
+		type="int" defaultValue="1000" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="workload" displayName="Workload"
+		type="int" defaultValue="100" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="loss_probability" displayName="Loss Probability"
+		type="double" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="disconnection_probability" displayName="Disconnection Probability"
+		type="double" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="disconnection_time" displayName="Max disconnecion time"
+		type="int" defaultValue="100" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+</parameters>

@@ -1,0 +1,49 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Perturbation Analysis</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>423098890</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Delivery Rate</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Delivery Rate</id>
+        <className>analysis.PerturbationAnalysis</className>
+        <methodName>getAverageDeliveryRate</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Max Latency</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Max Latency</id>
+        <className>analysis.PerturbationAnalysis</className>
+        <methodName>getMaxLatency</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Relays</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Relays</id>
+        <className>analysis.PerturbationAnalysis</className>
+        <methodName>nodesNumber</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

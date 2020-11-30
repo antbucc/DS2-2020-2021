@@ -1,0 +1,55 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Perturbations</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>analysis.PerturbationStatistics</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>0.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>ONE_TIME</frequency>
+    <hashCode>1152941089</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>DeliveryRate</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>DeliveryRate</id>
+        <className>analysis.PerturbationStatistics</className>
+        <methodName>getDeliveryRate</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>MaxLatency</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>MaxLatency</id>
+        <className>analysis.PerturbationStatistics</className>
+        <methodName>getMaxLatency</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>SentMessages</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>SentMessages</id>
+        <className>analysis.PerturbationStatistics</className>
+        <methodName>getSentMessages</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>StartTime</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>StartTime</id>
+        <className>analysis.PerturbationStatistics</className>
+        <methodName>getStartTime</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
