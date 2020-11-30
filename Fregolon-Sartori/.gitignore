@@ -1,0 +1,15 @@
+bin
+testbin
+Repast.settings
+*.log
+*.log.*
+
+ModelOutput*.txt
+ModelOutput*.csv
+
+*.csv
+
+output/.Rhistory
+
+*.pdf
+!report.pdf
