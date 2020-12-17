@@ -10,11 +10,11 @@ Two branches have been created and are used to memorize the different assignment
 * The source code of the implementation.
 * (Optional) a JAR file for the simulator installer.
 
-## First Assignment ##
+## Second Assignment ##
 
-A Broadcast-Only Communication Model Based on Replicated Append-Only Logs. Christian F. Tschudin. University of Basel, Switzerland
-christian.tschudin@unibas.ch
+The assigned protocol to implement is described in the following paper:
 
-## Deadline First Assignment ##
-**Monday 30, November - 6pm (Mandatory)**
+Anne-Marie Kermarrec, Erick Lavoie, and Christian F. Tschudin. Gossiping with Append-Only Logs in Secure-Scuttlebutt.
 
+## Deadline Second Assignment ##
+**Monday 4, January 2021 - 6pm (Mandatory)**
