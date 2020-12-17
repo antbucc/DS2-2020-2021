@@ -18,3 +18,13 @@ christian.tschudin@unibas.ch
 ## Deadline First Assignment ##
 **Monday 30, November - 6pm (Mandatory)**
 
+## Second Assignment ##
+
+The assigned protocol to implement is described in the following paper:
+
+Anne-Marie Kermarrec, Erick Lavoie, and Christian F. Tschudin. Gossiping with Append-Only Logs in Secure-Scuttlebutt.
+
+## Deadline Second Assignment ##
+**Monday 4, January 2021 - 6pm (Mandatory)**
+
+
