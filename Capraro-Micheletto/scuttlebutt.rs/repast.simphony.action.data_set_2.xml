@@ -1,0 +1,67 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Store info</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-823581574</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Average number of events</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average number of events</id>
+        <className>scuttlebutt.store.Store</className>
+        <methodName>getNumberOfEvents</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average number of logs</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average number of logs</id>
+        <className>scuttlebutt.store.Store</className>
+        <methodName>getNumberOfLogs</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average number of transitive followee</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average number of transitive followee</id>
+        <className>scuttlebutt.store.Store</className>
+        <methodName>getNumberOfTransitiveFollowee</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average number of blocked</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average number of blocked</id>
+        <className>scuttlebutt.store.Store</className>
+        <methodName>getNumberOfBlocked</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average number of directed followee</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average number of directed followee</id>
+        <className>scuttlebutt.store.Store</className>
+        <methodName>getNumberOfDirectFollowee</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

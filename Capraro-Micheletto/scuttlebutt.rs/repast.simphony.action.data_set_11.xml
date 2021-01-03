@@ -1,0 +1,43 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Waves</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1212398190</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map">
+    <entry>
+      <string>generatedWaves</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>generatedWaves</id>
+        <dsClassName>wavecast.analysis.GeneratedDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>deliveredWaves</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>deliveredWaves</id>
+        <dsClassName>wavecast.analysis.DeliveriesDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>generatedMinusDelivered</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>generatedMinusDelivered</id>
+        <dsClassName>wavecast.analysis.GeneratedMinusDeliveredDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+  </customAggDataSources>
+</repast.simphony.data2.engine.DataSetDescriptor>

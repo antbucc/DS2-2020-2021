@@ -1,0 +1,76 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>AverageLoad</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>2071115702</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Average Send Load</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average Send Load</id>
+        <className>wavecast.relay.Relay</className>
+        <methodName>getSendLoad</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average Receive Load</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average Receive Load</id>
+        <className>wavecast.relay.Relay</className>
+        <methodName>getReceiveLoad</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average Neighbours Count</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average Neighbours Count</id>
+        <className>wavecast.relay.Relay</className>
+        <methodName>getNeighboursCount</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Waves with delayed delivery</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Waves with delayed delivery</id>
+        <className>wavecast.relay.Relay</className>
+        <methodName>getOutOfOrderWavesSize</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average Lost waves</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average Lost waves</id>
+        <className>wavecast.relay.Relay</className>
+        <methodName>getLostLoad</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average Retransmissions</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average Retransmissions</id>
+        <className>wavecast.relay.Relay</className>
+        <methodName>getRetransmissionLoad</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
