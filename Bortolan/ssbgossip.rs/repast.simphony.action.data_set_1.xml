@@ -1,0 +1,40 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>EventAnalysis</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1877421168</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Average Delivery Rate</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Average Delivery Rate</id>
+        <className>analysis.EventAnalysis</className>
+        <methodName>getAverageDeliveryRate</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Maximum Latency</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Maximum Latency</id>
+        <className>analysis.EventAnalysis</className>
+        <methodName>getMaxLatency</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

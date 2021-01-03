@@ -1,0 +1,8 @@
+<context id="ssbgossip" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+	<projection type="continuous space" id="space"></projection>
+	<projection type="grid" id="grid"></projection>
+	<projection type="network" id="connections network"></projection>
+	<projection type="network" id="social network"></projection>
+	<projection type="network" id="block network"></projection>
+</context>

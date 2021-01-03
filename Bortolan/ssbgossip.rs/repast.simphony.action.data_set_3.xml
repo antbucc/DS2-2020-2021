@@ -1,0 +1,63 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Event Statistics</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>analysis.EventStatistics</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>Infinity</start>
+    <interval>0.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>ONE_TIME</frequency>
+    <hashCode>2038633517</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>MaxLatency</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>MaxLatency</id>
+        <className>analysis.EventStatistics</className>
+        <methodName>getMaxLatency</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>CreationTime</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>CreationTime</id>
+        <className>analysis.EventStatistics</className>
+        <methodName>getCreationTime</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>DeliveryRate</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>DeliveryRate</id>
+        <className>analysis.EventStatistics</className>
+        <methodName>getDeliveryRate</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>toString</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>toString</id>
+        <className>analysis.EventStatistics</className>
+        <methodName>toString</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>AvgLatency</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>AvgLatency</id>
+        <className>analysis.EventStatistics</className>
+        <methodName>getAvgLatency</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

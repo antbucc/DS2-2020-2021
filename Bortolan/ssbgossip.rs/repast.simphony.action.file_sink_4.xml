@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.8.0">
+  <name>Latency - DR</name>
+  <dataSet>Event Statistics</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>CreationTime</string>
+    <string>MaxLatency</string>
+    <string>DeliveryRate</string>
+    <string>AvgLatency</string>
+  </sourceIds>
+  <fileName>eventstatistics.csv</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

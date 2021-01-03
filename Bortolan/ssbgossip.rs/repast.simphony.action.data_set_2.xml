@@ -1,0 +1,94 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Participant</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1681087765</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Total Events (avg)</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Total Events (avg)</id>
+        <className>ssbgossip.Participant</className>
+        <methodName>getTotalEvents</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Total Events (min)</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Total Events (min)</id>
+        <className>ssbgossip.Participant</className>
+        <methodName>getTotalEvents</methodName>
+        <aggType>MIN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Total Events (max)</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Total Events (max)</id>
+        <className>analysis.EventAnalysis</className>
+        <methodName>getTotalEvents</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Generated Events</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Generated Events</id>
+        <className>ssbgossip.Participant</className>
+        <methodName>getGeneratedEvents</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Sent Messages</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Sent Messages</id>
+        <className>ssbgossip.Participant</className>
+        <methodName>getSentMessages</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Used Bandwidth</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Used Bandwidth</id>
+        <className>ssbgossip.Participant</className>
+        <methodName>getSentMessagesStep</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Avg Events Exchanged</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Avg Events Exchanged</id>
+        <className>ssbgossip.Participant</className>
+        <methodName>getNewsExchanged</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Max Events Exchanged</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Max Events Exchanged</id>
+        <className>ssbgossip.Participant</className>
+        <methodName>getNewsExchanged</methodName>
+        <aggType>MAX</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

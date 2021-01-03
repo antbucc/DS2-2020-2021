@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.8.0">
+  <name>Events</name>
+  <dataSet>Participant</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>Total Events (min)</string>
+    <string>Total Events (avg)</string>
+    <string>Total Events (max)</string>
+    <string>tick</string>
+  </sourceIds>
+  <fileName>events.csv</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

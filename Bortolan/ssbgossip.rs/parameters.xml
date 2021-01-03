@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+
+	<parameter name="randomSeed"
+		displayName="Default Random Seed" type="int" defaultValue="__NULL__" />
+
+	<parameter name="participants" displayName="Participants"
+		type="int" defaultValue="50" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="event_probability"
+		displayName="Event Probability" type="double" defaultValue="0.05"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+
+	<parameter name="update_frequency"
+		displayName="Update Frequency (sec)" type="int" defaultValue="40"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+		
+	<parameter name="follow_frequency"
+		displayName="Update Followed Frequency (sec)" type="int" defaultValue="60"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="bandwidth" displayName="Bandwidth (msg/sec)"
+		type="int" defaultValue="10000" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="neighbors" displayName="Neighbors"
+		type="int" defaultValue="0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="init_follow" displayName="Initial follow"
+		type="int" defaultValue="5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="algorithm" displayName="Algorithm"
+		type="int" defaultValue="1" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+		values="1 2 " />
+
+	<parameter name="block_probability"
+		displayName="Block Probability" type="double" defaultValue="0.001"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+
+	<parameter name="block_factor" displayName="Block Factor"
+		type="int" defaultValue="1" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="disconnection_probability"
+		displayName="Disconnection Probability" type="double"
+		defaultValue="0.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+
+	<parameter name="disconnection_time"
+		displayName="Disconnection Time (sec)" type="int" defaultValue="1000"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="delay_coefficient"
+		displayName="Network Delay Coefficient" type="double"
+		defaultValue="0.5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+</parameters>
