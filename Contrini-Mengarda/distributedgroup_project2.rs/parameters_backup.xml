@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="unblock_probability" displayName="(L) - Unblock Probability" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="unfollow_probability" displayName="(J) - Unfollow Probability" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="participants_count" displayName="(A) - Participants Count" type="int" 
+						defaultValue="30" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="friends_data_file" displayName="(B) - Friends Data File" type="java.lang.String" 
+						defaultValue="data/input1.txt" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+											/>
+				<parameter name="topology" displayName="(C) - Topology" type="java.lang.String" 
+						defaultValue="random" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												values="random ring star star+ "
+											/>
+				<parameter name="event_probability" displayName="(G) - Event Probability" type="double" 
+						defaultValue="0.01" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												values="0.01 0.02 0.05 0.1 0.2 0.3 "
+											/>
+				<parameter name="spread_speed" displayName="(F) - Perturbation Spread Speed" type="double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="true" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="follow_probability" displayName="(I) - Follow Probability" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="gossip_type" displayName="(H) - Gossip Type" type="java.lang.String" 
+						defaultValue="OpenGossip" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												values="OpenGossip TransitiveInterestGossip "
+											/>
+				<parameter name="spawn_probability" displayName="(D) - Spawn probability (only for random topology)" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="kill_probability" displayName="(E) - Kill probability (only for random topology)" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="block_probability" displayName="(K) - Block Probability" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+		</parameters>
+
+
