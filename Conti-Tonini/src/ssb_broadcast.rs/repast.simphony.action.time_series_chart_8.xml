@@ -1,0 +1,62 @@
+<repast.simphony.chart2.engine.TimeSeriesChartDescriptor simphonyVersion="2.7.0">
+  <name>Observers status</name>
+  <dataSet>Observers status</dataSet>
+  <xAxisLabel>Tick Count</xAxisLabel>
+  <yAxisLabel>Observer Count</yAxisLabel>
+  <chartTitle>Total Observers by Type</chartTitle>
+  <type>TIME_SERIES</type>
+  <background>
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+    <alpha>255</alpha>
+  </background>
+  <gridLineColor>
+    <red>204</red>
+    <green>204</green>
+    <blue>204</blue>
+    <alpha>255</alpha>
+  </gridLineColor>
+  <showGrid>true</showGrid>
+  <showLegend>true</showLegend>
+  <seriesIds>
+    <entry>
+      <string>New</string>
+      <SeriesData>
+        <label>New</label>
+        <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Active</string>
+      <SeriesData>
+        <label>Active</label>
+        <color>
+          <red>0</red>
+          <green>255</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Dead</string>
+      <SeriesData>
+        <label>Dead</label>
+        <color>
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+  </seriesIds>
+  <dataValueIds/>
+  <plotRangeLength>0</plotRangeLength>
+</repast.simphony.chart2.engine.TimeSeriesChartDescriptor>
