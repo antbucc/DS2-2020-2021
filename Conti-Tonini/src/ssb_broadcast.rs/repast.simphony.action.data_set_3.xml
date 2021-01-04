@@ -1,0 +1,43 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.7.0">
+  <name>Updates</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>2129794281</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map">
+    <entry>
+      <string>Maximum updates</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Maximum updates</id>
+        <dsClassName>ssb_broadcast.utils.MaxUpdatesDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Minimum updates</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Minimum updates</id>
+        <dsClassName>ssb_broadcast.utils.MinUpdatesDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Average updates</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Average updates</id>
+        <dsClassName>ssb_broadcast.utils.AverageUpdatesDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+  </customAggDataSources>
+</repast.simphony.data2.engine.DataSetDescriptor>

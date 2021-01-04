@@ -1,0 +1,1 @@
+The ssb_broadcast model is licensed as provided for by the authors. Please contact them for details.

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="stdGeneration" displayName="σ Generation of Messages" type="float" 
+						defaultValue="50.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+											/>
+				<parameter name="simtype" displayName="Simulation Type" type="java.lang.String" 
+						defaultValue="TransitiveInterest" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												values="OpenGossip TransitiveInterest "
+											/>
+				<parameter name="nFollowed" displayName="Number of Nodes that each Node follows" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="meanGeneration" displayName="μ Generation of Messages" type="float" 
+						defaultValue="200.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+											/>
+				<parameter name="insertInterval" displayName="Interval of Insertion of new Nodes" type="int" 
+						defaultValue="60000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="failureProb" displayName="Failure Probability" type="float" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+											/>
+				<parameter name="followChangeInterval" displayName="Time interval between changes in follow" type="int" 
+						defaultValue="60000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="failInterval" displayName="Interval of Node Failure" type="int" 
+						defaultValue="60000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="nBlocked" displayName="Number of nodes that each Node blocks" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="followBlockInterval" displayName="Time interval between changes in block" type="int" 
+						defaultValue="60000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="blockChangeProb" displayName="Probability to change a block" type="float" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+											/>
+				<parameter name="nNodes" displayName="Number of Nodes" type="int" 
+						defaultValue="30" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="syncLambda" displayName="Store sync interval" type="float" 
+						defaultValue="100.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+											/>
+				<parameter name="maxPackets" displayName="Maximum Number of Events per Link at the same time" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="followChangeProb" displayName="Probability to change a follow" type="float" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+											/>
+				<parameter name="insertProb" displayName="Insertion Probability" type="float" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$FloatConverter"
+											/>
+		</parameters>
+
+
