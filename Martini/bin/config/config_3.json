@@ -1,0 +1,31 @@
+{
+	"Dimensions" : {
+		"X":300,
+		"Y":300
+	},
+	"Duration": 30000,
+	"Network": "TransientRelay",
+	"FixedRelays": [
+		
+	],
+	"RandomRelays": [
+		{
+			"Count" : 35,
+			"PerturbationProb" : 0.01,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"Count" : 105,
+			"PerturbationProb" : 0.0,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		}
+	]
+}

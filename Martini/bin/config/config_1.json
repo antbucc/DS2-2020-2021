@@ -1,0 +1,110 @@
+{
+	"Dimensions" : {
+		"X":50,
+		"Y":50
+	},
+	"Duration": 30000,
+	"Network": "OpenRelay",
+	"FixedRelays": [
+		{
+			"X": 10.0,
+			"Y": 25.0,
+			"PerturbationProb" : 0.01,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"X": 40.0,
+			"Y": 25.0,
+			"PerturbationProb" : 0.0,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"X": 25.0,
+			"Y": 40.0,
+			"PerturbationProb" : 0.01,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"X": 25.0,
+			"Y": 10.0,
+			"PerturbationProb" : 0.0,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"X": 14.4,
+			"Y": 14.4,
+			"PerturbationProb" : 0.0,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"X": 35.6,
+			"Y": 14.4,
+			"PerturbationProb" : 0.01,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"X": 14.4,
+			"Y": 35.6,
+			"PerturbationProb" : 0.0,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"X": 35.6,
+			"Y": 35.6,
+			"PerturbationProb" : 0.0,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		}
+	],
+	"RandomRelays": [
+		{
+			"Count" : 2,
+			"PerturbationProb" : 0.01,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		},
+		{
+			"Count" : 5,
+			"PerturbationProb" : 0.0,
+			"Latency": 15.0,
+			"Jitter": 3.0,
+			"SpawnProb": 0.006,
+			"LeaveProb" : 0.005,
+			"LossProb" : 0.1
+		}
+	]
+}
