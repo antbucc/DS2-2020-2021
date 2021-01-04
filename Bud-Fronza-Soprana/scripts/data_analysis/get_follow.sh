@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+$(dirname $0)/filter_by_tag.sh $1 Application | grep 'Created\s*ds2.application.UserActions\s*[0-9]*\s*Action: FOLLOW' | awk '{print $3", "$4", "$5", "$9", "$13}' | awk 'BEGIN{print "timestamp,address,port,id,target"} {print $0}'

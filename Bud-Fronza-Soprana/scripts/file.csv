@@ -1,0 +1,665 @@
+0, -1
+1, -1
+2, -1
+3, -1
+4, -1
+5, -1
+6, -1
+7, -1
+8, -1
+9, -1
+10, -1
+11, -1
+12, -1
+13, -1
+14, -1
+15, -1
+16, -1
+17, -1
+18, -1
+19, -1
+20, -1
+21, -1
+22, -1
+23, -1
+24, -1
+25, -1
+26, -1
+27, 4    393.913311
+Name: timestamp, dtype: float64
+28, -1
+29, 6    713.568022
+Name: timestamp, dtype: float64
+30, -1
+31, 15    739.603765
+Name: timestamp, dtype: float64
+32, -1
+33, -1
+34, -1
+35, 5    371.669528
+Name: timestamp, dtype: float64
+36, -1
+37, -1
+38, -1
+39, -1
+40, -1
+41, 16    711.77329
+Name: timestamp, dtype: float64
+42, -1
+43, -1
+44, -1
+45, 6    370.271238
+Name: timestamp, dtype: float64
+46, -1
+47, -1
+48, -1
+49, -1
+50, -1
+51, -1
+52, -1
+53, -1
+54, -1
+55, -1
+56, -1
+57, -1
+58, -1
+59, -1
+60, -1
+61, -1
+62, -1
+63, 7    NaN
+13   NaN
+Name: timestamp, dtype: float64
+64, -1
+65, -1
+66, -1
+67, -1
+68, -1
+69, -1
+70, -1
+71, -1
+72, -1
+73, 8    NaN
+14   NaN
+Name: timestamp, dtype: float64
+74, -1
+75, 16    774.495258
+Name: timestamp, dtype: float64
+76, 17    772.941089
+Name: timestamp, dtype: float64
+77, 9    NaN
+15   NaN
+Name: timestamp, dtype: float64
+78, -1
+79, -1
+80, -1
+81, 242    949.239951
+Name: timestamp, dtype: float64
+82, -1
+83, 7    578.348479
+Name: timestamp, dtype: float64
+84, 6   NaN
+8   NaN
+Name: timestamp, dtype: float64
+85, -1
+86, 17    599.563184
+Name: timestamp, dtype: float64
+87, -1
+88, -1
+89, 24    202.014823
+Name: timestamp, dtype: float64
+90, 6    369.899923
+Name: timestamp, dtype: float64
+91, -1
+92, -1
+93, -1
+94, 243    919.690528
+Name: timestamp, dtype: float64
+95, -1
+96, -1
+97, 244    910.756888
+Name: timestamp, dtype: float64
+98, -1
+99, -1
+100, -1
+101, 34   NaN
+43   NaN
+Name: timestamp, dtype: float64
+102, 245    897.924582
+Name: timestamp, dtype: float64
+103, 246    894.942099
+Name: timestamp, dtype: float64
+104, -1
+105, -1
+106, 11    34.551378
+Name: timestamp, dtype: float64
+107, -1
+108, 10   NaN
+16   NaN
+Name: timestamp, dtype: float64
+109, -1
+110, -1
+111, -1
+112, -1
+113, 247    872.516043
+Name: timestamp, dtype: float64
+114, -1
+115, -1
+116, 25   NaN
+51   NaN
+Name: timestamp, dtype: float64
+117, 12    7.344804
+Name: timestamp, dtype: float64
+118, -1
+119, -1
+120, -1
+121, 29    144.161797
+Name: timestamp, dtype: float64
+122, -1
+123, 7    42.556609
+Name: timestamp, dtype: float64
+124, 40    968.176746
+Name: timestamp, dtype: float64
+125, -1
+126, -1
+127, 8    30.451598
+Name: timestamp, dtype: float64
+128, -1
+129, 7    NaN
+13   NaN
+Name: timestamp, dtype: float64
+130, 9    23.105529
+Name: timestamp, dtype: float64
+131, -1
+132, 7    NaN
+24   NaN
+Name: timestamp, dtype: float64
+133, -1
+134, -1
+135, 1867    1131.238236
+Name: timestamp, dtype: float64
+136, -1
+137, -1
+138, -1
+139, -1
+140, -1
+141, -1
+142, -1
+143, 10    77.294555
+Name: timestamp, dtype: float64
+144, -1
+145, -1
+146, -1
+147, 8    415.623702
+Name: timestamp, dtype: float64
+148, -1
+149, -1
+150, 26   NaN
+52   NaN
+Name: timestamp, dtype: float64
+151, 273    1034.50714
+Name: timestamp, dtype: float64
+152, -1
+153, -1
+154, -1
+155, -1
+156, 31    78.376452
+Name: timestamp, dtype: float64
+157, -1
+158, -1
+159, -1
+160, -1
+161, -1
+162, -1
+163, -1
+164, 1868    1061.67479
+Name: timestamp, dtype: float64
+165, -1
+166, -1
+167, -1
+168, -1
+169, -1
+170, -1
+171, 8    NaN
+14   NaN
+Name: timestamp, dtype: float64
+172, 16   NaN
+18   NaN
+Name: timestamp, dtype: float64
+173, -1
+174, -1
+175, 18    408.755051
+Name: timestamp, dtype: float64
+176, -1
+177, 248    711.67266
+Name: timestamp, dtype: float64
+178, -1
+179, 21    410.909911
+Name: timestamp, dtype: float64
+180, -1
+181, -1
+182, 28    NaN
+155   NaN
+Name: timestamp, dtype: float64
+183, -1
+184, 9    325.641188
+Name: timestamp, dtype: float64
+185, 11    34.97647
+Name: timestamp, dtype: float64
+186, 8    58.183062
+Name: timestamp, dtype: float64
+187, -1
+188, -1
+189, 22    385.955901
+Name: timestamp, dtype: float64
+190, 50    194.870135
+Name: timestamp, dtype: float64
+191, -1
+192, -1
+193, -1
+194, 249    668.70275
+Name: timestamp, dtype: float64
+195, 43    166.072777
+Name: timestamp, dtype: float64
+196, -1
+197, 44    158.969872
+Name: timestamp, dtype: float64
+198, -1
+199, 41    779.485004
+Name: timestamp, dtype: float64
+200, -1
+201, 274    911.328154
+Name: timestamp, dtype: float64
+202, 206    628.77611
+Name: timestamp, dtype: float64
+203, -1
+204, -1
+205, 275    903.550231
+Name: timestamp, dtype: float64
+206, -1
+207, -1
+208, -1
+209, 23    339.404479
+Name: timestamp, dtype: float64
+210, 12   NaN
+19   NaN
+52   NaN
+Name: timestamp, dtype: float64
+211, 45    128.791283
+Name: timestamp, dtype: float64
+212, -1
+213, 126    831.538559
+Name: timestamp, dtype: float64
+214, -1
+215, -1
+216, 51    133.259417
+Name: timestamp, dtype: float64
+217, 288    948.129658
+Name: timestamp, dtype: float64
+218, -1
+219, 42    732.615131
+Name: timestamp, dtype: float64
+220, -1
+221, 250    604.331534
+Name: timestamp, dtype: float64
+222, 29    NaN
+156   NaN
+Name: timestamp, dtype: float64
+223, 43    NaN
+101   NaN
+Name: timestamp, dtype: float64
+224, -1
+225, -1
+226, 52    109.23952
+Name: timestamp, dtype: float64
+227, 13   NaN
+21   NaN
+31   NaN
+Name: timestamp, dtype: float64
+228, 86    NaN
+207   NaN
+Name: timestamp, dtype: float64
+229, 8    NaN
+25   NaN
+Name: timestamp, dtype: float64
+230, 53    NaN
+179   NaN
+Name: timestamp, dtype: float64
+231, -1
+232, -1
+233, -1
+234, 45    471.958373
+Name: timestamp, dtype: float64
+235, 276    831.867247
+Name: timestamp, dtype: float64
+236, 53    83.85213
+Name: timestamp, dtype: float64
+237, 18    372.112262
+Name: timestamp, dtype: float64
+238, 13   NaN
+24   NaN
+Name: timestamp, dtype: float64
+239, -1
+240, 13   NaN
+20   NaN
+53   NaN
+Name: timestamp, dtype: float64
+241, 46    454.110411
+Name: timestamp, dtype: float64
+242, -1
+243, 54    NaN
+180   NaN
+Name: timestamp, dtype: float64
+244, 1188    795.624378
+Name: timestamp, dtype: float64
+245, 14   NaN
+25   NaN
+Name: timestamp, dtype: float64
+246, -1
+247, 127    748.644333
+Name: timestamp, dtype: float64
+248, -1
+249, 118    419.500384
+Name: timestamp, dtype: float64
+250, 43    655.596454
+Name: timestamp, dtype: float64
+251, -1
+252, -1
+253, -1
+254, -1
+255, 14   NaN
+32   NaN
+44   NaN
+Name: timestamp, dtype: float64
+256, 44    642.052082
+Name: timestamp, dtype: float64
+257, -1
+258, 1630    970.813495
+Name: timestamp, dtype: float64
+259, 1631    967.736652
+Name: timestamp, dtype: float64
+260, -1
+261, 1869    820.876481
+Name: timestamp, dtype: float64
+262, 251    503.801322
+Name: timestamp, dtype: float64
+263, 47    404.264098
+Name: timestamp, dtype: float64
+264, -1
+265, 12   NaN
+26   NaN
+Name: timestamp, dtype: float64
+266, -1
+267, -1
+268, -1
+269, -1
+270, -1
+271, 13   NaN
+27   NaN
+Name: timestamp, dtype: float64
+272, 219    530.208773
+Name: timestamp, dtype: float64
+273, -1
+274, -1
+275, -1
+276, 42   NaN
+53   NaN
+Name: timestamp, dtype: float64
+277, 220    515.92563
+Name: timestamp, dtype: float64
+278, 15    519.940841
+Name: timestamp, dtype: float64
+279, -1
+280, 252    462.521292
+Name: timestamp, dtype: float64
+281, 121    253.21255
+Name: timestamp, dtype: float64
+282, 15   NaN
+33   NaN
+45   NaN
+Name: timestamp, dtype: float64
+283, 48    358.194213
+Name: timestamp, dtype: float64
+284, -1
+285, 44    NaN
+66    NaN
+102   NaN
+Name: timestamp, dtype: float64
+286, 15   NaN
+26   NaN
+Name: timestamp, dtype: float64
+287, 124    611.505305
+Name: timestamp, dtype: float64
+288, 87    NaN
+208   NaN
+Name: timestamp, dtype: float64
+289, 122    233.946864
+Name: timestamp, dtype: float64
+290, 214    422.000295
+Name: timestamp, dtype: float64
+291, 89    165.716111
+Name: timestamp, dtype: float64
+292, 123    226.932948
+Name: timestamp, dtype: float64
+293, -1
+294, 1136    683.511948
+Name: timestamp, dtype: float64
+295, 35   NaN
+44   NaN
+Name: timestamp, dtype: float64
+296, 16   NaN
+27   NaN
+Name: timestamp, dtype: float64
+297, -1
+298, 16    471.014633
+Name: timestamp, dtype: float64
+299, 26    NaN
+27    NaN
+113   NaN
+711   NaN
+Name: timestamp, dtype: float64
+300, 253    413.352957
+Name: timestamp, dtype: float64
+301, -1
+302, 49    310.957274
+Name: timestamp, dtype: float64
+303, 1870    720.572465
+Name: timestamp, dtype: float64
+304, 26    NaN
+55    NaN
+181   NaN
+Name: timestamp, dtype: float64
+305, 1871    714.964311
+Name: timestamp, dtype: float64
+306, 27    NaN
+28    NaN
+114   NaN
+712   NaN
+Name: timestamp, dtype: float64
+307, 14    NaN
+289   NaN
+Name: timestamp, dtype: float64
+308, 124    185.431483
+Name: timestamp, dtype: float64
+309, 1872    704.999833
+Name: timestamp, dtype: float64
+310, 10    19.314192
+Name: timestamp, dtype: float64
+311, 50    287.585204
+Name: timestamp, dtype: float64
+312, -1
+313, -1
+314, -1
+315, -1
+316, 128    581.718124
+Name: timestamp, dtype: float64
+317, 29    NaN
+71    NaN
+125   NaN
+Name: timestamp, dtype: float64
+318, -1
+319, -1
+320, 1137    618.635117
+Name: timestamp, dtype: float64
+321, 17    413.470504
+Name: timestamp, dtype: float64
+322, 125    147.707179
+Name: timestamp, dtype: float64
+323, -1
+324, 28    NaN
+29    NaN
+115   NaN
+713   NaN
+Name: timestamp, dtype: float64
+325, 1873    664.690995
+Name: timestamp, dtype: float64
+326, 30    24.235754
+Name: timestamp, dtype: float64
+327, 43    NaN
+133   NaN
+182   NaN
+Name: timestamp, dtype: float64
+328, 45    465.527545
+Name: timestamp, dtype: float64
+329, 30    NaN
+72    NaN
+126   NaN
+Name: timestamp, dtype: float64
+330, -1
+331, 277    594.374755
+Name: timestamp, dtype: float64
+332, 30    NaN
+41    NaN
+42    NaN
+157   NaN
+Name: timestamp, dtype: float64
+333, 18    382.902145
+Name: timestamp, dtype: float64
+334, 19    379.015792
+Name: timestamp, dtype: float64
+335, 1138    578.685043
+Name: timestamp, dtype: float64
+336, 44    NaN
+134   NaN
+183   NaN
+Name: timestamp, dtype: float64
+337, 278    581.365782
+Name: timestamp, dtype: float64
+338, 27    NaN
+56    NaN
+182   NaN
+Name: timestamp, dtype: float64
+339, 28   NaN
+87   NaN
+Name: timestamp, dtype: float64
+340, 90    40.272141
+Name: timestamp, dtype: float64
+341, 71     NaN
+1189   NaN
+Name: timestamp, dtype: float64
+342, 129    514.243393
+Name: timestamp, dtype: float64
+343, -1
+344, 45    NaN
+231   NaN
+Name: timestamp, dtype: float64
+345, -1
+346, 31    NaN
+42    NaN
+43    NaN
+158   NaN
+Name: timestamp, dtype: float64
+347, 363    NaN
+1541   NaN
+Name: timestamp, dtype: float64
+348, 254    290.50524
+Name: timestamp, dtype: float64
+349, 19    94.885394
+Name: timestamp, dtype: float64
+350, 29   NaN
+88   NaN
+Name: timestamp, dtype: float64
+351, 255    280.515189
+Name: timestamp, dtype: float64
+352, 119    164.647235
+Name: timestamp, dtype: float64
+353, 30   NaN
+89   NaN
+Name: timestamp, dtype: float64
+354, 364    NaN
+1542   NaN
+Name: timestamp, dtype: float64
+355, 1874    586.218278
+Name: timestamp, dtype: float64
+356, 622    417.240643
+Name: timestamp, dtype: float64
+357, 623    414.541669
+Name: timestamp, dtype: float64
+358, 31   NaN
+90   NaN
+Name: timestamp, dtype: float64
+359, 32   NaN
+91   NaN
+Name: timestamp, dtype: float64
+360, -1
+361, 279    517.320433
+Name: timestamp, dtype: float64
+362, 41   NaN
+93   NaN
+Name: timestamp, dtype: float64
+363, 20   NaN
+27   NaN
+Name: timestamp, dtype: float64
+364, 365    NaN
+1543   NaN
+Name: timestamp, dtype: float64
+365, -1
+366, 960    471.077242
+Name: timestamp, dtype: float64
+367, -1
+368, 15    NaN
+290   NaN
+Name: timestamp, dtype: float64
+369, -1
+370, 31    NaN
+127   NaN
+149   NaN
+Name: timestamp, dtype: float64
+371, -1
+372, -1
+373, 89    NaN
+135   NaN
+184   NaN
+337   NaN
+Name: timestamp, dtype: float64
+374, 21   NaN
+28   NaN
+Name: timestamp, dtype: float64
+375, 130    432.835434
+Name: timestamp, dtype: float64
+376, 222    342.498892
+Name: timestamp, dtype: float64
+377, 20    27.532306
+Name: timestamp, dtype: float64
+378, -1
+379, 46    NaN
+232   NaN
+Name: timestamp, dtype: float64
+380, 72     NaN
+109    NaN
+1190   NaN
+Name: timestamp, dtype: float64
+381, 22   NaN
+29   NaN
+Name: timestamp, dtype: float64
+382, 68    NaN
+70    NaN
+71    NaN
+204   NaN
+Name: timestamp, dtype: float64
+383, 46    330.089252
+Name: timestamp, dtype: float64
+384, -1
+385, 108   NaN
+221   NaN
+Name: timestamp, dtype: float64

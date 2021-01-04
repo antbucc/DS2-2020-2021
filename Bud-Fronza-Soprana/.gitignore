@@ -1,0 +1,5 @@
+/bin/
+Repast.settings
+velocity.log*
+debug.log
+classpath
