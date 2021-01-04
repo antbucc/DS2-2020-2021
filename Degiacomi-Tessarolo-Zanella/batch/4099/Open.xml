@@ -1,0 +1,13 @@
+<sweep runs="12">
+    <parameter name="stopAt" type="constant" constant_type="int" value="1000" />
+    <parameter name="numLANs" type="constant" constant_type="int" value="20" />
+    <parameter name="meanTicksWaiting" type="constant" constant_type="int" value="5" />
+    <parameter name="numPeople" type="constant" constant_type="int" value="50" />
+    <parameter name="meanPrefLANs" type="constant" constant_type="int" value="1" />
+    <parameter name="stdTicksWaiting" type="constant" constant_type="int" value="5" />
+    <parameter name="stdPrefLANs" type="constant" constant_type="int" value="1" />
+    <parameter name="motionStrategy" type="constant" constant_type="java.lang.String" value="HabitMotion" />
+    <parameter name="synchronizationProtocol" type="constant" constant_type="java.lang.String" value="OpenModel" />
+    <parameter name="meanTicksWaitingHome" type="constant" constant_type="int" value="5" />
+    <parameter name="stdTicksWaitingHome" type="constant" constant_type="int" value="2" />
+</sweep>

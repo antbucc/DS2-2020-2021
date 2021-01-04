@@ -1,0 +1,47 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Person Dataset</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>gossipingAppendOnlyLogs.actors.Person</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-417453845</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>arrivedEvents</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>arrivedEvents</id>
+        <className>gossipingAppendOnlyLogs.actors.Person</className>
+        <methodName>arrivedEvents</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>createdEvents</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>createdEvents</id>
+        <className>gossipingAppendOnlyLogs.actors.Person</className>
+        <methodName>createdEvents</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>id</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>id</id>
+        <className>gossipingAppendOnlyLogs.actors.Person</className>
+        <methodName>getId</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
